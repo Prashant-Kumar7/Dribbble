@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.loginPageImage{
+    background-image: url("https://cdn.dribbble.com/users/76454/screenshots/6592185/001_4x.png?resize=1000x750&vertical=center");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    background-color: #f2d184;
+}
+
+.rounded-checkbox {
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .rounded-checkbox:checked {
+    appearance: auto;
+    clip-path: circle(50% at 50% 50%);
+  }
